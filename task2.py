@@ -17,10 +17,11 @@ def title():
     print("Guesse a number between 1 and 10, good luck!")
 
 def game():
-    w=print (input("Enter your guesse for a number between 1 and 10: "))
+    print(x)
+    w=input("Enter your guesse for a number between 1 and 10: ")
     while x != w:
-        w=print (input("Enter your guesse for a number between 1 and 10: "))
-        if (f"int(w) == x"):
+        w=input("Enter your guesse for a number between 1 and 10: ")
+        if (int(w) == x):
             print("correct")
             break
             
